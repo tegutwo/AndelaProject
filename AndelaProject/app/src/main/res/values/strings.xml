@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Andela</string>
+    <string name="Button1">About Andela</string>
+    <string name="Button2">My Profile</string>
+    <string name="textView">Wassgood</string>
+    <string name="TextView">email</string>
+    <string name="name">name</string>
+    <string name="track">track</string>
+    <string name="country">country</string>
+    <string name="email">email</string>
+    <string name="number">number</string>
+    <string name="text2">WELCOME!</string>
+
+
+</resources>

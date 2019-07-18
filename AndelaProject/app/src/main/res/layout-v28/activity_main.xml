@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/back"
+    >
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="347dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="226dp"
+        android:text="@string/Button1"
+        android:background="@drawable/button_back"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="347dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="413dp"
+        android:text="@string/Button2"
+        android:background="@drawable/button_back"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textFontWeight="2"
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="327dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="37dp"
+        android:gravity="center"
+        android:text="@string/text2"
+        android:textColor="#ffffff"
+        android:textFontWeight="4"
+
+        android:textSize="50sp" />
+
+</RelativeLayout>
